@@ -2,8 +2,8 @@ import datetime
 import time
 
 import tweepy
-from tweepy import OAuthHandler
 from plyer import notification
+from tweepy import OAuthHandler
 
 import settings
 
