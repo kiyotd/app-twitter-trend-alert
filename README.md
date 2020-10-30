@@ -27,7 +27,7 @@ pipenv install
 pipenv run python main.py
 ```
 
-### Licence
+## Licence
 
 The MIT License
 
