@@ -7,12 +7,14 @@ from tweepy import OAuthHandler
 
 import settings
 
+# 監視したいキーワードのリスト
+words = ["GitHub", "AWS", "Slack", "障害"]
+
 auth = OAuthHandler(settings.CONSUMER_KEY, settings.CONSUMER_SECRET)
 auth.set_access_token(settings.ACCESS_TOKEN, settings.ACCESS_SECRET)
 
 api = tweepy.API(auth)
 
-words = ["GitHub", "AWS", "Slack", "障害"]
 lower_words = list(map(str.lower, words))
 
 print("Start monitoring trends")
