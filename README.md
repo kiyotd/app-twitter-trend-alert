@@ -9,7 +9,7 @@
 ### Clone
 
 ```bash
-git clone https://github.com/kiyotd/twitter-trend-checker.git
+git clone https://github.com/kiyotd/twitter-trend-alert.git
 ```
 
 ### Runs the app
