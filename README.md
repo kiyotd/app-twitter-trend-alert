@@ -16,10 +16,6 @@ git clone https://github.com/kiyotd/app-twitter-trend-alert.git
 
 ```bash
 cd app-twitter-trend-alert
-```
-
-```bash
-pipenv --python 3.8
 pipenv install
 ```
 
