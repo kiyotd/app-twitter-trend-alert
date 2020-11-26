@@ -14,6 +14,12 @@
 git clone https://github.com/kiyotd/app-twitter-trend-alert.git
 ```
 
+### Configuring the Twitter API
+
+Rename the `.env.example` file to `.env` file.  
+Set your Twitter API keys and tokens.
+
+
 ### Building an Environment
 
 ```bash
