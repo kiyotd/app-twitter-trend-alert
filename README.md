@@ -2,7 +2,9 @@
 
 ## Description
 
-- tweepy, Twitter API を利用して、トレンドに任意の指定した文字列があればコンソールとデスクトップへと通知を行うアプリケーションです。
+- Twitterのトレンド1～50位に任意の文字列を含んだ場合、コンソールとデスクトップへと通知を行うアプリケーションです。
+
+![thumb](https://user-images.githubusercontent.com/41136135/100298851-83c1fc80-2fd5-11eb-8807-bc20b2658f9c.png)
 
 ## Getting Started
 
@@ -12,12 +14,22 @@
 git clone https://github.com/kiyotd/app-twitter-trend-alert.git
 ```
 
-### Runs the app
+### Building an Environment
 
 ```bash
 cd app-twitter-trend-alert
 pipenv install
 ```
+
+### Keyword Specifications
+
+edit `main.py`
+
+```
+words = ["GitHub", "AWS", "Slack", "Gmail", "障害"]
+```
+
+### Run the app
 
 ```bash
 pipenv run python main.py
