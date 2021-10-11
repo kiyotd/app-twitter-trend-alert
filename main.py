@@ -26,7 +26,7 @@ while True:
 
     now = datetime.datetime.now().strftime("%Y/%m/%d %H:%M")
 
-    trends = api.trends_place(23424856)[0]["trends"]
+    trends = api.get_place_trends(23424856)[0]["trends"]
 
     for i, trend in enumerate(trends):
 
