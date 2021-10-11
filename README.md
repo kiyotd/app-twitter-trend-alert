@@ -47,7 +47,7 @@ source ./venv/bin/activate.fish # for fish
 
 edit `main.py`
 
-```
+```python
 words = ["GitHub", "AWS", "Slack", "Gmail", "障害"]
 ```
 
